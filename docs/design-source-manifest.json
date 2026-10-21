@@ -1,0 +1,50 @@
+{
+  "syncedOn": "2026-10-08",
+  "remote": "https://github.com/Leinad0033/legionaries-context.git",
+  "includesUncommittedFiles": true,
+  "localHead": "86f7f6a483e463661470f57db3e6f26faeacd3e2",
+  "remoteHead": "87b3a365f9b6d6fd43442176a07f2c77aa0e7ca6",
+  "source": "../Legionaires",
+  "files": [
+    {
+      "sha256": "3741a0993df0dee2efa6d4e00eb71d2e05075a561a8ea8c421a212d4af183e85",
+      "path": "DECISION_LOG.md"
+    },
+    {
+      "sha256": "ec7662a2b74dd720d0d24aa2485b77a6efaa6d640290f8027f46848c9c62950e",
+      "path": "PROTOTYPE_MISSION_BRIEF.md"
+    },
+    {
+      "sha256": "90432bb7ab453fd10458a8acd8aeb315aac50649efe25f1a4f567c09e3a5c2a6",
+      "path": "LEGIONNAIRES_ONE_PAGER.md"
+    },
+    {
+      "sha256": "e25bd318e7cbdd2ea47a5e04cc53bab18f7fed30a3d017b347d9b94a958cccf6",
+      "path": "CHARACTERS.md"
+    },
+    {
+      "sha256": "6ab36b679d7e063131f96b20b00f3940a530c8bcf8a66680af76da00f374f5a7",
+      "path": "SETTING.md"
+    },
+    {
+      "sha256": "4696ac2778378d06a21a56e2b4345fef5ef37b26cf5cd171c733136352be78c7",
+      "path": "meetings/2026-10-08-design-discussion.md"
+    },
+    {
+      "sha256": "c2b5aafabd534a9c1cf65f6e242d6f637f7e660348e3e4a86d6291ad9ee5d465",
+      "path": "meetings/sources/2026-10-08-consolidated-notes.md"
+    },
+    {
+      "sha256": "c447fb3f9ce8f1d7e9d053efd36867d617b07953fa18e66241f6ff9b661ef085",
+      "path": "gameplay/DETECTION_AND_EXTRACTION.md"
+    },
+    {
+      "sha256": "436054e4589cbd03b78330dc5685c84465175a35d657bc22cc3115d4894846b0",
+      "path": "gameplay/PROGRESSION_AND_SHIP.md"
+    },
+    {
+      "sha256": "b4a7bfac1e290f7c31fbcdfa0b754c607b42bf0e76d9a3bb800fef5728ac892f",
+      "path": "production/DEVELOPMENT_NOTES.md"
+    }
+  ]
+}
