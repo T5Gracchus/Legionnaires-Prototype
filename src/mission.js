@@ -1,4 +1,4 @@
-// Playtest assumptions, not approved design rules. See docs/PLAYTEST_RULES.md.
+// Playtest assumptions, not approved design rules. See docs/GAME_MECHANICS.md.
 export const RULES = { move: 4, carryMove: 2, defendReduction: 2, blockReduction: 2, reviveFraction: 0.25, enemyMove: 2 };
 export const ENEMY_COMBAT = { maxHp: 7, dodge: 0.05, block: 0.1, damage: [1, 3], range: 1 };
 export const PLAYER_DEFENSE = {

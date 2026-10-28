@@ -2,6 +2,6 @@
   "name": "legionnaires-prototype",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node scripts/serve.mjs", "test": "node --test" },
+  "scripts": { "start": "node scripts/serve.mjs", "test": "node --test", "test:trials": "node scripts/playtest-missions.mjs" },
   "engines": { "node": ">=22" }
 }

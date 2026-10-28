@@ -1,0 +1,27 @@
+{
+  "tool": "Built-in image generation",
+  "date": "2026-10-22",
+  "transparentBackground": true,
+  "assets": {
+    "aer": {
+      "file": "aer.png",
+      "prompt": "Use case: stylized-concept. Asset type: ONE transparent full-body miniature sprite for a small top-down tactics grid, elevated three-quarter view from front facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outlines, broad color shapes legible at 56 pixels. Neutral daylight upper-left. Transparent background, no floor, base, text, border, other figures, watermark, or science-fiction technology. Primitive native culture with creative natural-material tools. Alien glider scout: slender small teal avian humanoid with two folded-feather wing arms partially spread for distinctive broad triangular silhouette, warm ivory head crest, ochre woven loincloth and leather straps, holding a braided sling and leather pouch of smooth river stones. Intelligent personable non-human birdlike face, no human hair, no guns, no metal armor.",
+      "generatedFile": "exec-d14e4c4b-0217-4a2b-8fd7-02c6d79b1544.png"
+    },
+    "bound": {
+      "file": "bound.png",
+      "prompt": "Use case: stylized-concept. Asset type: ONE transparent full-body miniature sprite for a small top-down tactics grid, elevated three-quarter view from front facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outlines, broad color shapes legible at 56 pixels. Neutral daylight upper-left. Transparent background, no floor, base, text, border, other figures, watermark, or science-fiction technology. Primitive native culture with creative natural-material tools. Alien leaper: compact rust-orange amphibian humanoid, huge muscular frog-like hind legs in a crouched ready-to-jump pose, mottled skin, large expressive dark eyes, simple woven reed vest and bone necklaces, gripping a long thorn-tipped spear and small round bark shield. Anatomically alien, no advanced gear.",
+      "generatedFile": "exec-daff011f-3341-4b15-a864-1df26303180d.png"
+    },
+    "murr": {
+      "file": "murr.png",
+      "prompt": "Use case: stylized-concept. Asset type: ONE transparent full-body miniature sprite for a small top-down tactics grid, elevated three-quarter view from front facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outlines, broad color shapes legible at 56 pixels. Neutral daylight upper-left. Transparent background, no floor, base, text, border, other figures, watermark, or science-fiction technology. Primitive native culture with creative natural-material tools. Alien musk keeper: stocky violet-furred alien with small tusks, wide flat nose and fluffy striped tail held upward, dark plum and lavender fur, sage green woven harness holding gourds and seed pods, gripping a simple gourd bellows and reed tube used to launch irritant seed pellets. Comical but dignified, readable humanoid stance, no advanced gear.",
+      "generatedFile": "exec-6f1fe8d7-6aa0-4ac1-bb73-9ffef21bd406.png"
+    },
+    "krag": {
+      "file": "krag.png",
+      "prompt": "Use case: stylized-concept. Asset type: ONE transparent full-body miniature sprite for a small top-down tactics grid, elevated three-quarter view from front facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outlines, broad color shapes legible at 56 pixels. Neutral daylight upper-left. Transparent background, no floor, base, text, border, other figures, watermark, or science-fiction technology. Primitive native culture with creative natural-material tools. Alien stoneback: broad squat reptilian humanoid with natural layered slate-gray armored plates along shoulders and back, amber eyes, ochre leather apron and rope belt, carrying a heavy rough obsidian-headed stone maul in both hands. Friendly recruit yet formidable sturdy silhouette. No machinery, no metal armor, no guns.",
+      "generatedFile": "exec-9984def3-e76f-472f-959a-3f301935e74c.png"
+    }
+  }
+}

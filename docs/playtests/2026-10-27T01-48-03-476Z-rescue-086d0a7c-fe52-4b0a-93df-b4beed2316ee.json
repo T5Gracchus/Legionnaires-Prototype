@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "savedAt": "2026-10-27T01:48:03.476Z",
+  "version": "0.6.1",
+  "level": "rescue",
+  "seed": 42,
+  "status": "success",
+  "rounds": 6,
+  "elapsedMinutes": 2.43,
+  "loadout": [
+    {
+      "id": "centurion",
+      "weapon": "singularity",
+      "armor": "woven"
+    },
+    {
+      "id": "aer",
+      "weapon": "sling",
+      "armor": "woven"
+    },
+    {
+      "id": "bound",
+      "weapon": "thorn",
+      "armor": "woven"
+    },
+    {
+      "id": "krag",
+      "weapon": "arc",
+      "armor": "woven"
+    }
+  ],
+  "extracted": [
+    "centurion",
+    "aer",
+    "bound",
+    "krag"
+  ],
+  "objectives": [
+    {
+      "id": "o0",
+      "name": "Captive scout",
+      "kind": "captive",
+      "x": 8,
+      "y": 2,
+      "done": true
+    },
+    {
+      "id": "o1",
+      "name": "Captive artisan",
+      "kind": "captive",
+      "x": 9,
+      "y": 6,
+      "done": true
+    }
+  ],
+  "metrics": {
+    "actions": 39,
+    "attacks": 10,
+    "damageTaken": 10,
+    "knockdowns": 0,
+    "abilities": 2,
+    "kills": 5,
+    "revives": 0,
+    "enforcementDeaths": 0
+  },
+  "budget": {
+    "total": 11,
+    "peak": 7,
+    "penalty": 8,
+    "turns": 8,
+    "grace": 2
+  },
+  "rating": "Too easy",
+  "notes": "Need to improve the enemy AI",
+  "log": [
+    "The spore bazaar: 8 safe turns, then two turns under enforcement. Recover both objectives and extract each recruit from X tiles.",
+    "Tekk → Shell warden: 3 damage (4 rolled, armor −1).",
+    "Oru → Seed slinger: 6 damage (6 rolled).",
+    "Centurion → Shell warden: 10 damage (10 rolled) · fallen.",
+    "Seli → Seed slinger: 2 damage (2 rolled) · fallen.",
+    "Tekk leaps to I3.",
+    "Seed slinger → Tekk: 2 damage (2 rolled).",
+    "Thorn guard → Tekk: 4 damage (4 rolled).",
+    "Tekk: Captive scout freed and safely guided away.",
+    "Tekk → Seed slinger: dodged.",
+    "Seli → Shell warden: 1 damage (4 rolled, block −2, armor −1).",
+    "Centurion → Thorn guard: 9 damage (9 rolled) · fallen.",
+    "Oru → Shell warden: 6 damage (6 rolled).",
+    "Seed slinger → Centurion: 0 damage (2 rolled, block −2).",
+    "Shell warden → Seli: 4 damage (4 rolled).",
+    "Centurion → Seed slinger: 8 damage (10 rolled, block −2) · fallen.",
+    "Seli: Captive artisan freed and safely guided away.",
+    "Oru → Shell warden: 7 damage (7 rolled) · fallen.",
+    "Tekk leaps to E5.",
+    "A local reinforcement enters from the east.",
+    "Oru extracts safely.",
+    "Seli extracts safely.",
+    "Centurion extracts safely.",
+    "Tekk extracts safely.",
+    "Objectives complete. Extraction finished."
+  ]
+}

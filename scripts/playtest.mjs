@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import {mkdir,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { createMission, act, endTurn, withdraw, canTarget, distance, passable, unitAt, enemyAt, terrain } from '../src/mission.js';
 
@@ -107,4 +107,5 @@ for (const [name,profile] of Object.entries(profiles)) for(const style of ['caut
   const summary={profile:name,style,runs:count,completed:won.length,defeat:runs.filter(r=>r.status==='defeat').length,timeout:runs.filter(r=>r.status==='playing').length,rounds:avg(won,'rounds'),p90Rounds:sorted[Math.floor(sorted.length*.9)]??null,actions:avg(won,'actions'),p90EstimatedMinutes: won.map(r=>(90+r.actions*6+r.rounds*8)/60).sort((a,b)=>a-b)[Math.floor(won.length*.9)],falls:avg(runs,'falls'),damage:avg(runs,'received')};
   console.log(JSON.stringify(summary)); results.push({summary,runs:runs.map((r,i)=>i<3?r:(({trace,...rest})=>rest)(r))});
 }
-await writeFile(new URL('../docs/playtest-results.json',import.meta.url),JSON.stringify({profiles,results}));
+await mkdir(new URL('../docs/reports/simulations/',import.meta.url),{recursive:true});
+await writeFile(new URL('../docs/reports/simulations/playtest-results.json',import.meta.url),JSON.stringify({profiles,results}));

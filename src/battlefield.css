@@ -1,0 +1,51 @@
+/* Art pass: the logical grid, hit areas, and movement rules stay in mission.js. */
+.mode-nav{display:flex;gap:10px;margin-bottom:20px;font-size:12px}.mode-nav a{color:#dac58c;padding:8px 12px;border:1px solid var(--line);border-radius:3px;text-decoration:none}.mode-nav a:hover{background:#3b4c41}
+.battlefield{background:linear-gradient(145deg,#283229,#19241f);border-color:#65725a;box-shadow:0 12px 36px #0003}
+.map-heading{color:#c1b58c}
+#board{gap:1px;background:#3a4938;border:2px solid #7a8060;isolation:isolate;box-shadow:0 0 0 5px #111b1555,inset 0 0 40px #101b17}
+.tile,.tile:nth-child(3n){background-color:#617051;background-image:radial-gradient(ellipse at 18% 73%,#293e2f66 0 5%,transparent 8%),radial-gradient(ellipse at 77% 29%,#9ba27366 0 3%,transparent 6%),linear-gradient(125deg,#a99a6322,#223d2922);border:1px solid #354b3033;overflow:visible}
+.tile.variation-1{background-position:13px 8px,0 4px,0 0;background-color:#687452}
+.tile.variation-2{background-position:23px 18px,15px 0,0 0;background-color:#606d4d}
+.tile.variation-3{background-position:-10px 12px,4px -5px,0 0;background-color:#6c7551}
+.tile.terrain-T{background-color:#455c3b;background-image:radial-gradient(ellipse,#233b2d99,transparent 75%)}
+.tile.terrain-W{background-color:#827355;background-image:repeating-linear-gradient(106deg,transparent 0 13px,#332b2322 14px 16px,transparent 17px 25px)}
+.tile.terrain-water{background-color:#386c76;background-image:linear-gradient(160deg,#749c9433,#28536299),repeating-linear-gradient(170deg,transparent 0 12px,#cee2d412 13px 15px,transparent 16px 24px)}
+.tile.terrain-water.bank-north{border-top:4px solid #a29368}
+.tile.terrain-water.bank-south{border-bottom:4px solid #8b845e}
+.tile.terrain-R{background-color:#72794b;background-image:radial-gradient(ellipse at center,#baa66944,transparent 80%);border:1px dashed #cdb27677}
+.terrain-art{position:absolute;inset:0;opacity:1;font-size:inherit;pointer-events:none;display:grid;place-items:center}
+.terrain-art svg{width:100%;height:100%;overflow:visible}
+.tile.legal{background-color:#67846b;border:1px solid #a4e5d0;box-shadow:inset 0 0 0 2px #76c8b188}
+.tile.legal::after{content:"";position:absolute;inset:4px;border:1px solid #c0efda66;pointer-events:none}
+.tile:hover:enabled{background-color:#798364;border-color:#e1cd8c;z-index:3}
+.tile.selected{outline:3px solid #ffe09b;outline-offset:-3px;z-index:2;box-shadow:inset 0 0 15px #eedb8277}
+.tile-coordinate{position:absolute;left:2px;top:0;font:600 8px/1.5 'Segoe UI',sans-serif;color:#f1ebcf80;z-index:1;pointer-events:none}
+.unit-sprite{position:absolute;inset:0;z-index:2;display:block;background:none;border:0;border-radius:0;box-shadow:none;pointer-events:none}
+.unit-sprite::before{content:"";position:absolute;left:17%;right:17%;bottom:7%;height:19%;border-radius:50%;background:#172c25a6;border:2px solid #cadbd69c;box-shadow:0 3px 4px #0005}
+.unit-sprite img{position:relative;display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(1px 2px 1px #0b160fcc);transform:translateY(-6%);user-select:none}
+.unit-sprite.sprite-centurion::before{border-color:#eda89a}
+.unit-sprite.sprite-shield::before{border-color:#90c9ed}
+.unit-sprite.sprite-sword::before{border-color:#edd57f}
+.unit-sprite.enemy::before{border-color:#eab18a;border-radius:3px;background:#623822b3}
+.unit-label{position:absolute;right:1px;bottom:6px;background:#16241ded;border:1px solid #b4c7ad;color:#fff9de;font:700 9px/1.3 'Segoe UI',sans-serif;padding:0 2px;border-radius:2px;min-width:13px;text-align:center;box-shadow:0 1px 2px #0009}
+.sprite-centurion .unit-label{border-color:#efa493;background:#703b30}
+.sprite-shield .unit-label{border-color:#9ccee7;background:#274f68}
+.sprite-sword .unit-label{border-color:#eed488;background:#675627}
+.enemy .unit-label{border-color:#ecad7c;background:#703c26}
+.unit-sprite.fallen img{transform:translateY(10%) rotate(65deg);filter:grayscale(1) brightness(.65) drop-shadow(1px 2px 1px #0009);opacity:.85}
+.unit-sprite.guarding::before{box-shadow:0 0 0 2px #a8d8e7,0 0 12px #a8d8e7aa}
+.tile-health{bottom:1px;height:4px;width:72%;border:1px solid #19251d;background:#19251d;z-index:4}
+.tile-health i{background:#d4e2a5}
+.enemy-health i{background:#efa67e}
+.carry-badge,.casualty-badge,.fallen-badge{z-index:5;border:1px solid #ffdda0;border-radius:3px;box-shadow:0 1px 4px #0009;line-height:1.1}
+.fallen-badge{position:absolute;top:3px;right:2px;background:#3a3931;color:#ffe1a4;font-size:15px;padding:0 3px}
+.casualty-sprite{position:absolute;inset:5%;z-index:1;pointer-events:none}
+.casualty-sprite svg{width:100%;height:100%}
+.selected-portrait{float:right;width:84px;height:90px;object-fit:contain;margin:-14px -8px 0 8px;filter:drop-shadow(0 4px 4px #0006)}
+#selected .health{clear:both}
+.roster-card{padding-top:8px;background-image:radial-gradient(ellipse at 50% 22%,#6a745244,transparent 75%)}
+.roster-portrait{display:block;height:88px;width:100%;object-fit:contain;filter:drop-shadow(0 3px 3px #0005);pointer-events:none}
+.roster-card .roster-token{position:absolute;top:10px;left:9px;font:700 10px/1.5 'Segoe UI',sans-serif;border:1px solid #b3a67577;background:#18251ddd;border-radius:3px;padding:0 4px}
+.portrait-fallen{filter:grayscale(1);opacity:.5}
+@media(max-width:950px){.unit-label{font-size:8px;bottom:5px}.tile-coordinate{font-size:7px}.selected-portrait{width:65px;height:75px}.roster-portrait{height:76px}}
+@media(max-width:700px){.tile-coordinate{display:none}.unit-label{font-size:7px;min-width:10px;padding:0 1px}.selected-portrait{width:55px;height:65px}.tile-health{height:3px}.roster-portrait{height:68px}}

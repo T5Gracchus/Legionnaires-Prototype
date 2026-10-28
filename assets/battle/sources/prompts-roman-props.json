@@ -1,0 +1,34 @@
+{
+  "version": "0.8",
+  "tool": "built-in image_gen",
+  "purpose": "New Roman battlefield props, original menu illustrations unchanged.",
+  "assets": [
+    {
+      "id": "wagon",
+      "prompt": "Use case: stylized-concept. Asset type: original tactical RPG battlefield PROP sprite. One single isolated complete object on a truly transparent alpha background, square canvas. Crisp deliberately pixelled game art with clean coarse pixel clusters, dark olive outlines, restricted earthy palette, stylized compact proportions matching classic tactical game units. Camera elevated isometric 30 degrees, light from upper left. Entire object fits centered with generous transparent padding around all edges; its base near lower center. No floor, no platform, no ground diamond, no text, no lettering, no logo, no watermark, no glow, no shadow or haze outside silhouette. Outside the crisp outline should be completely alpha-zero, not a brown gradient. Native handworked natural materials, readable shape at a small map scale. This is game sprite production art, not a realistic painting or photograph. Subject: a Roman wooden baggage wagon, sturdy low four-wheeled cart constructed of warm worn oak planks, two near-side spoke wheels clearly visible, simple short pulling shaft, loaded with tied cream wool bundles and small brown wooden supply crates. Rope lashings and one muted red cloth blanket. No horses, no people, no extra scenery. Broad compact silhouette appropriate to fit a single tactical map square.",
+      "mode": "built-in image_gen",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a17b5b-30f1-7fa3-bd41-9dfd5a1d5e57\\exec-a87d5602-7998-4bef-82a7-a31a72eda491.png",
+      "original": "assets/battle/sources/wagon-prop.png",
+      "working": "assets/battle/props/wagon.png",
+      "notes": "Single isolated transparent prop; normalize crop/scale to 256×256 with base anchor 224 during project asset packing."
+    },
+    {
+      "id": "casualty",
+      "prompt": "Use case: stylized-concept. Asset type: original tactical RPG battlefield PROP sprite. One single isolated complete object on a truly transparent alpha background, square canvas. Crisp deliberately pixelled game art with clean coarse pixel clusters, dark olive outlines, restricted earthy palette, stylized compact proportions matching classic tactical game units. Camera elevated isometric 30 degrees, light from upper left. Entire object fits centered with generous transparent padding around all edges; its base near lower center. No floor, no platform, no ground diamond, no text, no lettering, no logo, no watermark, no glow, no shadow or haze outside silhouette. Outside the crisp outline should be completely alpha-zero, not a brown gradient. Native handworked natural materials, readable shape at a small map scale. This is game sprite production art, not a realistic painting or photograph. Subject: a wounded Roman soldier resting safely on a simple wooden stretcher, wearing muted red tunic and cream cloth wraps, bronze/iron helmet set beside his shoulder on the stretcher. Pale cloth bandage around one lower leg. Modest, bloodless, no gore, no weapons raised. Stretcher is two dark wood poles supporting taut cream canvas, viewed diagonally from head-left/top to feet-right/bottom. Complete figure and all pole ends inside the image. Clearly a carry-only wounded person, not a standing enemy.",
+      "mode": "built-in image_gen",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a17b5b-30f1-7fa3-bd41-9dfd5a1d5e57\\exec-8a9570ad-bdeb-4248-bdf5-c1004a6943ab.png",
+      "original": "assets/battle/sources/casualty-prop.png",
+      "working": "assets/battle/props/casualty.png",
+      "notes": "Single isolated transparent prop; normalize crop/scale to 256×256 with base anchor 224 during project asset packing."
+    },
+    {
+      "id": "extraction",
+      "prompt": "Use case: stylized-concept. Asset type: original tactical RPG battlefield PROP sprite. One single isolated complete object on a truly transparent alpha background, square canvas. Crisp deliberately pixelled game art with clean coarse pixel clusters, dark olive outlines, restricted earthy palette, stylized compact proportions matching classic tactical game units. Camera elevated isometric 30 degrees, light from upper left. Entire object fits centered with generous transparent padding around all edges; its base near lower center. No floor, no platform, no ground diamond, no text, no lettering, no logo, no watermark, no glow, no shadow or haze outside silhouette. Outside the crisp outline should be completely alpha-zero, not a brown gradient. Native handworked natural materials, readable shape at a small map scale. This is game sprite production art, not a realistic painting or photograph. Subject: a small Roman rally standard on a wooden pole planted in a modest tripod foot, base fully visible. A compact rich red rectangular cloth flag hangs near the top with a simple gold circle-and-bar geometric emblem, no letters, no writing. Small bronze finial, tan rope ties, no eagle or intricate statue. Clear upright readable silhouette, natural cloth and wood, not a technological beacon. The flag is meant to mark extraction ground.",
+      "mode": "built-in image_gen",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a17b5b-30f1-7fa3-bd41-9dfd5a1d5e57\\exec-a9dacd5d-05fe-4354-9410-bd7e31ce3cf3.png",
+      "original": "assets/battle/sources/extraction-prop.png",
+      "working": "assets/battle/props/extraction.png",
+      "notes": "Single isolated transparent prop; normalize crop/scale to 256×256 with base anchor 224 during project asset packing."
+    }
+  ]
+}

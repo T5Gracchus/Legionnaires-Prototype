@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "savedAt": "2026-10-26T00:52:55.050Z",
+  "version": "0.6.1",
+  "level": "relay",
+  "seed": 42,
+  "status": "success",
+  "rounds": 7,
+  "elapsedMinutes": 58.4,
+  "loadout": [
+    {
+      "id": "centurion",
+      "weapon": "singularity",
+      "armor": "mesh"
+    },
+    {
+      "id": "aer",
+      "weapon": "musket",
+      "armor": "woven"
+    },
+    {
+      "id": "bound",
+      "weapon": "thorn",
+      "armor": "woven"
+    },
+    {
+      "id": "krag",
+      "weapon": "arc",
+      "armor": "woven"
+    }
+  ],
+  "extracted": [
+    "centurion",
+    "aer",
+    "bound",
+    "krag"
+  ],
+  "objectives": [
+    {
+      "id": "o0",
+      "name": "North relay",
+      "kind": "relay",
+      "x": 9,
+      "y": 1,
+      "done": true
+    },
+    {
+      "id": "o1",
+      "name": "South relay",
+      "kind": "relay",
+      "x": 9,
+      "y": 6,
+      "done": true
+    }
+  ],
+  "metrics": {
+    "actions": 54,
+    "attacks": 14,
+    "damageTaken": 7,
+    "knockdowns": 0,
+    "abilities": 2,
+    "kills": 5,
+    "revives": 0,
+    "enforcementDeaths": 0
+  },
+  "budget": {
+    "total": 13,
+    "peak": 8,
+    "penalty": 9,
+    "turns": 7,
+    "grace": 2
+  },
+  "rating": "About right",
+  "notes": "I used some of the super weapons this game. They felt good. Might need to give the enemies some better Intelligence and better skills. ",
+  "log": [
+    "Basalt relay: 7 safe turns, then two turns under enforcement. Recover both objectives and extract each recruit from X tiles.",
+    "Seli → Thorn guard: 5 damage (5 rolled).",
+    "Oru defends.",
+    "Centurion → Thorn guard: 9 damage (9 rolled) · fallen.",
+    "Tekk defends.",
+    "Oru → Thorn guard: 7 damage (7 rolled).",
+    "Seli → Thorn guard: 4 damage (4 rolled) · fallen.",
+    "Centurion defends.",
+    "Tekk leaps to J2.",
+    "Tekk defends.",
+    "Seed slinger → Oru: 0 damage (2 rolled, block −2, armor −1).",
+    "Seed slinger → Centurion: 1 damage (4 rolled, armor −1, Defend −2).",
+    "Tekk: North relay secured.",
+    "Oru → Seed slinger: dodged.",
+    "Seli → Seed slinger: 6 damage (6 rolled).",
+    "Centurion → Seed slinger: 9 damage (9 rolled) · fallen.",
+    "Tekk → Seed slinger: dodged.",
+    "Seed slinger → Tekk: 4 damage (4 rolled).",
+    "Shell warden → Tekk: dodged.",
+    "Centurion → Shell warden: 11 damage (11 rolled).",
+    "Centurion: South relay secured.",
+    "Seli → Shell warden: 3 damage (4 rolled, armor −1) · fallen.",
+    "Oru → Seed slinger: dodged.",
+    "Tekk defends.",
+    "Seed slinger → Tekk: dodged.",
+    "A local reinforcement enters from the east.",
+    "Seli → Seed slinger: 5 damage (5 rolled).",
+    "Oru → Seed slinger: 6 damage (6 rolled).",
+    "Tekk → Seed slinger: 5 damage (5 rolled) · fallen.",
+    "Tekk leaps to B2.",
+    "Seed slinger → Seli: 2 damage (2 rolled).",
+    "Centurion extracts safely.",
+    "Seli extracts safely.",
+    "Tekk extracts safely.",
+    "Oru extracts safely.",
+    "Objectives complete. Extraction finished."
+  ]
+}
