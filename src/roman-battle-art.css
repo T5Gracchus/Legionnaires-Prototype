@@ -1,0 +1,101 @@
+/* The Roman mission stays a flat, cardinal grid. Scope the new pixel battlefield
+   art to #board; menu, roster, inspection and briefing illustrations keep 0.5 art. */
+#board {
+  background:#263528;
+  border-color:#9a9f70;
+  box-shadow:0 0 0 5px #14221ccc,0 12px 24px #0005;
+}
+#board .tile {
+  background-color:#647451;
+  background-image:linear-gradient(140deg,#f3e1a11c,#122f3220),var(--roman-tile-texture);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:1px solid #23362955;
+  box-shadow:inset 0 -3px #23382555;
+  image-rendering:pixelated;
+}
+#board .tile.terrain-water {
+  background-color:#386778;
+  box-shadow:inset 0 4px #122b3e33;
+}
+#board .tile.terrain-R {
+  background-color:#83905f;
+  border:1px dashed #e6d69599;
+}
+#board .tile.legal {
+  border:2px solid #a8e8dc;
+  box-shadow:inset 0 0 0 1px #102f29,0 0 4px #a8e8dc55;
+}
+#board .tile.selected {
+  outline:3px solid #ffe2a3;
+  outline-offset:-3px;
+  z-index:4;
+}
+#board .tile:hover:enabled,#board .tile:focus-visible {
+  border-color:#fff0b8;
+  z-index:6;
+}
+#board .roman-terrain-art {
+  overflow:visible;
+  z-index:1;
+}
+#board .roman-terrain-prop {
+  width:104%;
+  height:112%;
+  object-fit:contain;
+  object-position:center bottom;
+  align-self:end;
+  margin-bottom:5%;
+  image-rendering:pixelated;
+  filter:drop-shadow(2px 3px 1px #0b201c65);
+  pointer-events:none;
+  user-select:none;
+}
+#board .roman-prop-tree {width:112%;height:140%;margin-bottom:8%;opacity:.93}
+#board .roman-prop-wagon {width:110%;height:112%;margin-bottom:3%}
+#board .roman-prop-extraction {width:58%;height:76%;justify-self:end;margin-right:2%;opacity:.82}
+#board .roman-battle-sprite {
+  overflow:visible;
+  z-index:3;
+  pointer-events:none;
+}
+#board .roman-battle-sprite::before {
+  left:23%;right:23%;bottom:7%;height:15%;
+  border-width:1px;
+  box-shadow:0 2px 2px #07160e99;
+}
+#board .roman-battle-sprite img {
+  position:absolute;
+  width:104%;
+  height:125%;
+  left:-2%;
+  bottom:8%;
+  object-fit:contain;
+  object-position:center bottom;
+  image-rendering:pixelated;
+  transform:none;
+  filter:drop-shadow(1px 2px 1px #0b160fbb);
+}
+#board .roman-battle-sprite.fallen img {
+  transform:translateY(10%);
+  filter:grayscale(.8) brightness(.72) drop-shadow(1px 2px #0007);
+}
+#board .roman-battle-sprite .unit-label {
+  z-index:6;
+  right:1px;
+  bottom:5px;
+  font-size:9px;
+}
+#board .tile-health {z-index:7;bottom:1px;width:66%}
+#board .tile-coordinate {z-index:7;color:#fcf2d3c9;text-shadow:1px 1px #10231f}
+#board .roman-casualty-art {
+  width:100%;height:100%;object-fit:contain;image-rendering:pixelated;
+  filter:drop-shadow(1px 2px #12231da6);pointer-events:none;
+}
+@media(max-width:700px){
+  #board .roman-battle-sprite img{height:123%;width:112%;left:-6%;bottom:11%}
+  #board .roman-battle-sprite .unit-label{font-size:7px;bottom:4px}
+  #board .tile-health{height:3px;width:80%}
+  #board .roman-prop-tree{height:125%}
+}

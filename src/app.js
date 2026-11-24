@@ -1,5 +1,6 @@
 import { createMission, WIDTH, HEIGHT, terrain, unitAt, enemyAt, casualtyAt, canTarget, act, endTurn, withdraw, canWithdraw, weapon, RULES, ENEMY_COMBAT } from './mission.js';
 import { OPENING_PREMISE, CHARACTER_CONTEXT, missionDebrief } from './story.js';
+import { spritePath, battleSpriteMarkup, romanTerrainArt, romanTileTexture, romanCasualtyArt } from './art.js';
 
 let state = createMission(), selected = 'centurion', order = 'move';
 const $ = id => document.getElementById(id);
@@ -41,6 +42,8 @@ function render() {
   $('withdraw').title = 'Return all six standing soldiers to rally ground and put down carried casualties.';
   $('selected').innerHTML = `<p class="eyebrow">SELECTED SOLDIER</p><h2>${u.name}</h2><p class="role">${u.role}</p><div class="health"><span style="width:${100 * u.hp / u.maxHp}%"></span></div><p class="stats">${u.hp} / ${u.maxHp} health <span>${u.ammo} javelins</span></p><div class="budgets">${[['move', 'Move'], ['act', 'Act'], ['interact', 'Item / Special']].map(([k, label]) => `<span class="${u.hp > 0 && u.actions[k] ? 'ready' : 'spent'}">${u.hp > 0 && u.actions[k] ? '●' : '○'} ${label}</span>`).join('')}</div><p class="condition">${u.hp === 0 ? 'Fallen · needs an adjacent soldier to revive' : u.carrying ? 'Carrying wounded · move 2 · cannot attack' : u.defending ? 'Defending · protected this enemy turn' : `Move ${u.move}`}</p>`;
   $('actions').replaceChildren();
+  const portrait = document.createElement('img'); portrait.className = 'selected-portrait'; portrait.src = spritePath(u.id); portrait.alt = '';
+  $('selected').insertBefore(portrait, $('selected').querySelector('h2'));
   $('selected').insertAdjacentHTML('beforeend', `<p class="condition">Dodge ${percent(u.dodge)} · Block ${percent(u.block)}<br>Block reduces damage by ${RULES.blockReduction} on a non-dodged hit.</p><p class="condition">Sword: ${damageText(weapon(u, 'sword'))}<br>Javelin: ${damageText(weapon(u, 'javelin'))}</p>`);
   const background = document.createElement('details');
   const backgroundLabel = document.createElement('summary'); backgroundLabel.textContent = 'About this soldier';
@@ -66,18 +69,27 @@ function render() {
     const t = terrain(x, y), friend = unitAt(state, x, y), enemy = enemyAt(state, x, y), casualty = casualtyAt(state, x, y);
     const legal = canTarget(state, u, order, x, y);
     const tile = document.createElement('button');
+    tile.dataset.position = `${x},${y}`;
+    tile.style.setProperty('--roman-tile-texture', `url("${romanTileTexture(t)}")`);
     tile.className = `tile terrain-${t === '~' ? 'water' : t} ${legal ? 'legal' : ''} ${friend?.id === selected ? 'selected' : ''}`;
+    tile.classList.add(`variation-${(x * 7 + y * 3) % 4}`);
+    if (t === '~') {
+      if (terrain(x, y - 1) !== '~') tile.classList.add('bank-north');
+      if (terrain(x, y + 1) !== '~') tile.classList.add('bank-south');
+    }
+    const enemyLabel = enemy ? `E${state.enemies.indexOf(enemy) + 1}` : '';
     tile.setAttribute('aria-label', `${String.fromCharCode(65 + x)}${y + 1}: ${terrainNames[t]}${friend ? `, ${friend.name}, ${friend.hp} health${friend.carrying ? ', carrying casualty' : ''}` : ''}${enemy ? `, enemy, ${enemy.hp} health` : ''}${casualty ? ', wounded casualty, carry to safety' : ''}${legal ? `, valid ${order} target` : ''}`);
     tile.title = tile.getAttribute('aria-label');
+    if (enemy) tile.setAttribute('aria-label', tile.getAttribute('aria-label').replace(', enemy,', `, Enemy ${enemyLabel},`));
     if (enemy) {
       const info = `Enemy: ${damageText(enemy)}. Dodge ${percent(enemy.dodge)}, block ${percent(enemy.block)} (reduces damage by ${RULES.blockReduction}).`;
       tile.title += ` — ${info}`;
       tile.onmouseenter = tile.onfocus = () => { $('enemy-info').textContent = info; };
     }
-    tile.innerHTML = `<span class="terrain-art" aria-hidden="true">${t === 'T' ? '♠' : t === 'W' ? '▤' : t === '~' ? '≈' : ''}</span>`;
-    if (friend) tile.innerHTML += `<span class="token roman ${friend.hp === 0 ? 'fallen' : ''}">${friend.hp === 0 ? '↓' : friend.token}</span><span class="tile-health"><i style="width:${friend.hp / friend.maxHp * 100}%"></i></span>${friend.carrying ? '<span class="carry-badge">+</span>' : ''}`;
-    if (enemy) tile.innerHTML += `<span class="token enemy">E</span><span class="tile-health enemy-health"><i style="width:${enemy.hp / enemy.maxHp * 100}%"></i></span>`;
-    if (casualty) tile.innerHTML += `<span class="${friend || enemy ? 'casualty-badge' : 'token wounded'}">+</span>`;
+    tile.innerHTML = `<span class="terrain-art roman-terrain-art" aria-hidden="true">${romanTerrainArt(t)}</span><span class="tile-coordinate" aria-hidden="true">${String.fromCharCode(65 + x)}${y + 1}</span>`;
+    if (friend) tile.innerHTML += battleSpriteMarkup(friend.id, friend.token, `roman ${friend.hp === 0 ? 'fallen' : ''} ${friend.defending ? 'guarding' : ''}`) + `<span class="tile-health"><i style="width:${friend.hp / friend.maxHp * 100}%"></i></span>${friend.carrying ? '<span class="carry-badge" aria-hidden="true">+</span>' : ''}${friend.hp === 0 ? '<span class="fallen-badge" aria-hidden="true">↓</span>' : ''}`;
+    if (enemy) tile.innerHTML += battleSpriteMarkup('enemy', enemyLabel, 'enemy') + `<span class="tile-health enemy-health"><i style="width:${enemy.hp / enemy.maxHp * 100}%"></i></span>`;
+    if (casualty) tile.innerHTML += `<span class="${friend || enemy ? 'casualty-badge' : 'casualty-sprite'}" aria-hidden="true">${friend || enemy ? '+' : romanCasualtyArt()}</span>`;
     tile.onclick = () => {
       if (legal) { act(state, selected, order, x, y); render(); }
       else if (friend) select(friend.id);
@@ -92,6 +104,7 @@ function render() {
   for (const member of state.units) {
     const card = document.createElement('button'); card.className = `roster-card ${member.id === selected ? 'chosen' : ''}`;
     card.innerHTML = `<span class="roster-token">${member.token}</span><strong>${member.name}</strong><span>${member.hp} / ${member.maxHp} HP ${member.carrying ? '· carrying +' : member.hp === 0 ? '· FALLEN' : ''}</span><small>${[['move', 'M'], ['act', 'A'], ['interact', 'I']].map(([k, l]) => `${l} ${member.hp > 0 && member.actions[k] ? '●' : '○'}`).join('　')}</small>`;
+    card.insertAdjacentHTML('afterbegin', `<img class="roster-portrait ${member.hp === 0 ? 'portrait-fallen' : ''}" src="${spritePath(member.id)}" alt="" draggable="false">`);
     card.onclick = () => select(member.id); $('roster').append(card);
   }
   $('log').replaceChildren(...state.log.slice(-7).reverse().map(message => { const li = document.createElement('li'); li.textContent = message; return li; }));

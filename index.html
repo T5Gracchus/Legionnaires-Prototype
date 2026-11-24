@@ -4,10 +4,13 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Legionnaires · Baggage rescue</title>
   <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/src/battlefield.css">
+  <link rel="stylesheet" href="/src/roman-battle-art.css">
 </head>
 <body>
   <header><div><p class="eyebrow">TACTICAL PROTOTYPE / 01</p><h1>LEGIONNAIRES</h1></div><div class="chapter">GERMANIA · 9 CE<br><span>The baggage rescue</span></div></header>
   <main>
+    <nav class="mode-nav" aria-label="Prototype modes"><a href="/" aria-current="page">Roman opening</a><a href="/offworld.html">Off-world trials →</a></nav>
     <section class="brief"><div><p class="eyebrow">HOLD THE ROUTE. BRING THEM HOME.</p><h2>A century cut off.</h2><p>Recover the wounded beyond the wagons. Protect your carriers, cross the stream, and regroup on the western rally ground.</p></div><div class="objective"><strong id="rescued">0 / 3</strong><span>WOUNDED EVACUATED</span><small>All six soldiers must return standing to withdraw.</small></div></section>
     <details class="panel mission-briefing"><summary>Mission briefing · The Roman opening</summary><p id="opening-premise"></p><p>Your detachment includes a veteran centurion, the two brothers entrusted to his care, and three supporting legionnaires. Recover as many wounded soldiers as you can, then bring the entire squad back to the western rally ground.</p><p>Wounded casualties must be carried and put down on rally ground. Fallen squad members need revival instead. You may withdraw with fewer than three casualties once all six soldiers are standing on rally ground and no one is carrying.</p></details><div class="commandbar"><span id="phase"></span><div><button id="withdraw">Withdraw squad</button><button id="end-turn" class="primary">End turn →</button></div></div>
     <div class="game-layout">
@@ -16,7 +19,7 @@
     </div>
     <section class="squad-section"><p class="eyebrow">THE DETACHMENT <span>Select a soldier to issue orders</span></p><div id="roster"></div></section>
     <div class="bottom-layout"><section class="panel"><p class="eyebrow">FIELD REPORT</p><ol id="log" aria-live="polite"></ol></section><details class="panel"><summary>How to play & experimental rules</summary><p>Select a soldier, choose an order, then select a highlighted map tile. Each soldier has one Move, one Act, and one Item/Special action per round, usable in any order.</p><p>Blue outlines show legal targets. Trees, wagons, water, and soldiers block movement; the central crossing is open. Javelins cross water but cannot pass through trees or wagons. Range counts horizontal plus vertical distance; action buttons show damage and range for the selected soldier.</p><p>Carry casualties to the green rally ground, then use Put down / Evacuate. Carrying limits movement to 2 and prevents attacks and revival. Defend costs 1 Act and reduces each hit by 2 (3 for the shield brother) until your next turn. Dodge avoids all damage. Block is checked separately after a failed dodge and reduces damage by 2; it stacks with Defend. All weapon damage rolls randomly within the displayed range.</p><p>Adjacent fallen soldiers can be revived to 25% health. The centurion can restore full health once per mission. Revived soldiers act next round. All six must return standing to withdraw; you may leave casualties behind.</p><p>Enemies move and attack when you end your turn. Reinforcements arrive in rounds 3, 5, and 7. A fallen squad means defeat; withdrawal ends in capture regardless of rescue count.</p><p>Numbers, squad size, supporting-soldier revival, and action assignments are provisional playtest choices.</p></details></div>
-    <footer><span>GRAYBOX BUILD 0.4 · PROVISIONAL RULES</span><button id="restart">Restart mission</button></footer>
+    <footer><span>BATTLE ART 0.8 · PROVISIONAL ROMAN RULES</span><button id="restart">Restart mission</button></footer>
   </main>
   <dialog id="ending"><p class="eyebrow" id="ending-label"></p><h2 id="ending-title"></h2><p id="ending-summary" class="debrief-summary"></p><p id="ending-text"></p><button id="play-again" class="primary">Play again</button><button id="review">Review battlefield</button></dialog>
   <script type="module" src="/src/app.js"></script>

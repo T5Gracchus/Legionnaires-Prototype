@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "intent": "New original battle material assets; original menu artwork preserved",
+  "transparent": false,
+  "assets": [
+    {
+      "name": "reedwater",
+      "file": "reedwater-ground.png",
+      "source": "C:/Users/TSGra/.codex/generated_images/01a17b5a-fa4b-79f3-84b4-b1e89f5a0875/exec-956d40a3-7a8d-45f0-824d-a61f9d4a7eb3.png",
+      "prompt": "Use case: stylized-concept. Asset type: seamless overhead ground texture for an original isometric tactical RPG tile set. Primary request: a single square flat repeatable material swatch of muted riverbank grass and compact ochre earth. Style: crisp handcrafted pixel clusters, classic tactical RPG readability, broad calm color masses, restrained texture, green moss and sparse tiny grass tufts over brown soil. Perfectly overhead orthographic, absolutely no perspective or 3D block, no edge border, no elevation or cliff, no scene, no characters, no objects, no rocks larger than a pebble, no buildings, no horizon, no grid, no text. Even diffuse lighting so it repeats cleanly across a map. Fill the square edge to edge. Low contrast enough that small character sprites remain clear. Palette muted moss green, olive, wet ochre soil, dark green flecks. The texture is the top surface material only; geometry will be drawn separately in code. New original artwork, not a copy of any game."
+    },
+    {
+      "name": "basalt",
+      "file": "basalt-ground.png",
+      "source": "C:/Users/TSGra/.codex/generated_images/01a17b5a-fa4b-79f3-84b4-b1e89f5a0875/exec-7f03d54e-c4eb-4aa6-b330-5eef57b3e960.png",
+      "prompt": "Use case: stylized-concept. Asset type: seamless overhead ground texture for an original isometric tactical RPG tile set. Primary request: a single square flat repeatable material swatch of worn basalt stone paving and natural slate. Style: crisp handcrafted pixel clusters, classic tactical RPG readability, broad calm color masses, restrained texture, dark gray blue slate with subtle broken stone facets and sparse amber mineral flecks. Perfectly overhead orthographic, absolutely no perspective or 3D block, no edge border, no elevation or cliff, no scene, no characters, no objects, no buildings, no horizon, no grid, no text. Even diffuse lighting so it repeats cleanly across a map. Fill the square edge to edge. Low contrast enough that small character sprites remain clear. The texture is the top surface material only; geometry will be drawn separately in code. New original artwork, not a copy of any game."
+    },
+    {
+      "name": "spores",
+      "file": "spores-ground.png",
+      "source": "C:/Users/TSGra/.codex/generated_images/01a17b5a-fa4b-79f3-84b4-b1e89f5a0875/exec-765ca191-8836-4be1-891f-f592071c4aff.png",
+      "prompt": "Use case: stylized-concept. Asset type: seamless overhead ground texture for an original isometric tactical RPG tile set. Primary request: a single square flat repeatable material swatch of compact sandy soil in an alien spore bazaar, subtle muted plum moss and dry ochre sand. Style: crisp handcrafted pixel clusters, classic tactical RPG readability, broad calm color masses, restrained texture, mostly pale warm sand with very sparse tiny muted purple organic specks. Perfectly overhead orthographic, absolutely no perspective or 3D block, no edge border, no elevation or cliff, no scene, no characters, no mushrooms or large plants, no objects, no buildings, no horizon, no grid, no text. Even diffuse lighting so it repeats cleanly across a map. Fill the square edge to edge. Low contrast enough that small character sprites remain clear. The texture is the top surface material only; geometry will be drawn separately in code. New original artwork, not a copy of any game."
+    }
+  ]
+}

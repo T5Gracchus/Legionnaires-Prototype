@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "enforcer",
+      "prompt": "Use case: stylized-concept. Asset type: original production battle sprite. one levitating enforcement machine: a perfectly dark lens-shaped spherical core held within three broken porcelain-white and pale-gold concentric orbital rings, floating unearthly precise geometry, no face or limbs, no gun, no propulsion. Ring gaps expose a tiny sharp gold-white light. Pixel art futuristic bureaucracy, immaculate materials contrasted with ancient native-world fighters. Three-quarter isometric camera looking down30degrees, lightupperleft. Full object centered onportraitcanvas, generousclearspacing, no ground, no background, no surroundingaura, no text, no existingfranchisecopy. Transparentbackground. Crisp dramatic readable silhouette suitable for90px sprite. Ringspartofobject mayemitsubtlewhitegoldlight; all space outsidephysicalrings perfectlytransparent.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-6a0026b6-3aa4-4590-b353-720ccd60db48.png"
+    },
+    {
+      "id": "relay",
+      "prompt": "Use case: stylized-concept. Asset type: original production battle sprite. one native-world signal relay objective prop: a compact upright basalt pillar with carved geometric grooves and two wooden crossarms carrying a small polished bronze gong and wrapped cords, primitive handcrafted material, no electronics or glowing technology. Isometricthree-quarterdown30deg, lightupperleft, crisp pixelclusters in slateamberwood palette, sizedfor one tile. Isolatedtransparent sprite, whole object centered withmargin, no groundtile, scenery, text, labels, shadowaura orwatermark.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-8d9b07ca-1432-47b0-a145-eb8010570bc1.png"
+    },
+    {
+      "id": "salvage",
+      "prompt": "Use case: stylized-concept. Asset type: original production battle sprite. one sealed salvage objective bundle: two compact tanwoven reed baskets wrapped inweatheredochrecloth andleathercords, a small simplewooden crateunderneath. Nativecraftedlowtechnology tangibleloot, coherentpixelart tacticalRPGprop. Isometricthreequarterdown30deg, lightupperleft, strong compactrecognizable silhouette, fullobject centeredamplemargin genuinealpha. NO groundtile scenerytextlabelsbordersshadowauraorwatermark.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-2ba0df37-3808-4c97-a12c-ed85ecca9016.png"
+    },
+    {
+      "id": "captive",
+      "prompt": "Use case: stylized-concept. Asset type: original production battle sprite. one captive objective prop for an originaltacticalRPG: a small nativewooden stockade withroughwooduprights and anopenspace between, one small nonhuman blue-green civilian sittingbehindthebarrier in simple ochrewovenclothes. Compact, humane,bloodless scene; native handcraftedmaterials notadvancedtechnology. Crispdeliberatepixelclusters, isometricthreequarterdown30deg, lightupperleft, readableat60px. Fullobject isolatedcentered transparentcanvasamplemargin, no groundtile, background scenery,text,labels,glow,shadowaura orwatermark.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-4c61066e-06d0-475d-a496-0782f46ea746.png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "angles": 4,
+  "fixtureTilesChecked": 384,
+  "mousePicks": 429,
+  "keyboardPicks": 0,
+  "mission": {
+    "level": "foundry",
+    "status": "success",
+    "rounds": 8,
+    "actions": 54,
+    "replay": "exact"
+  },
+  "checks": [
+    "cliff faces",
+    "depth order",
+    "sprite directions",
+    "enforcement targets",
+    "keyboard navigation",
+    "path persistence",
+    "pan/zoom/reset",
+    "view persistence across turns",
+    "retry reset",
+    "tactical view",
+    "phone layout",
+    "normal-motion movement"
+  ],
+  "errors": [],
+  "badAssets": []
+}

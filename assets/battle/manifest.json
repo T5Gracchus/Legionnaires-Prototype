@@ -1,0 +1,984 @@
+{
+  "version": "0.9.0",
+  "units": {
+    "centurion": {
+      "source": "sources/centurion-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/centurion-se.png",
+          "sourceBox": {
+            "left": 58,
+            "top": 67,
+            "width": 435,
+            "height": 499
+          }
+        },
+        "sw": {
+          "file": "units/centurion-sw.png",
+          "sourceBox": {
+            "left": 541,
+            "top": 67,
+            "width": 452,
+            "height": 503
+          }
+        },
+        "ne": {
+          "file": "units/centurion-ne.png",
+          "sourceBox": {
+            "left": 96,
+            "top": 601,
+            "width": 394,
+            "height": 478
+          }
+        },
+        "nw": {
+          "file": "units/centurion-nw.png",
+          "sourceBox": {
+            "left": 577,
+            "top": 601,
+            "width": 376,
+            "height": 487
+          }
+        },
+        "fallen": {
+          "file": "units/centurion-fallen.png",
+          "sourceBox": {
+            "left": 43,
+            "top": 1197,
+            "width": 495,
+            "height": 252
+          }
+        }
+      }
+    },
+    "shield": {
+      "source": "sources/shield-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/shield-se.png",
+          "sourceBox": {
+            "left": 115,
+            "top": 14,
+            "width": 359,
+            "height": 538
+          }
+        },
+        "sw": {
+          "file": "units/shield-sw.png",
+          "sourceBox": {
+            "left": 622,
+            "top": 7,
+            "width": 356,
+            "height": 545
+          }
+        },
+        "ne": {
+          "file": "units/shield-ne.png",
+          "sourceBox": {
+            "left": 90,
+            "top": 573,
+            "width": 343,
+            "height": 487
+          }
+        },
+        "nw": {
+          "file": "units/shield-nw.png",
+          "sourceBox": {
+            "left": 606,
+            "top": 583,
+            "width": 353,
+            "height": 477
+          }
+        },
+        "fallen": {
+          "file": "units/shield-fallen.png",
+          "sourceBox": {
+            "left": 51,
+            "top": 1215,
+            "width": 492,
+            "height": 254
+          }
+        }
+      }
+    },
+    "sword": {
+      "source": "sources/sword-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/sword-se.png",
+          "sourceBox": {
+            "left": 121,
+            "top": 66,
+            "width": 370,
+            "height": 460
+          }
+        },
+        "sw": {
+          "file": "units/sword-sw.png",
+          "sourceBox": {
+            "left": 536,
+            "top": 66,
+            "width": 434,
+            "height": 463
+          }
+        },
+        "ne": {
+          "file": "units/sword-ne.png",
+          "sourceBox": {
+            "left": 96,
+            "top": 575,
+            "width": 394,
+            "height": 463
+          }
+        },
+        "nw": {
+          "file": "units/sword-nw.png",
+          "sourceBox": {
+            "left": 587,
+            "top": 575,
+            "width": 378,
+            "height": 463
+          }
+        },
+        "fallen": {
+          "file": "units/sword-fallen.png",
+          "sourceBox": {
+            "left": 32,
+            "top": 1194,
+            "width": 523,
+            "height": 243
+          }
+        }
+      }
+    },
+    "legionnaire": {
+      "source": "sources/legionnaire-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/legionnaire-se.png",
+          "sourceBox": {
+            "left": 107,
+            "top": 56,
+            "width": 348,
+            "height": 477
+          }
+        },
+        "sw": {
+          "file": "units/legionnaire-sw.png",
+          "sourceBox": {
+            "left": 577,
+            "top": 56,
+            "width": 351,
+            "height": 477
+          }
+        },
+        "ne": {
+          "file": "units/legionnaire-ne.png",
+          "sourceBox": {
+            "left": 96,
+            "top": 572,
+            "width": 348,
+            "height": 479
+          }
+        },
+        "nw": {
+          "file": "units/legionnaire-nw.png",
+          "sourceBox": {
+            "left": 577,
+            "top": 588,
+            "width": 340,
+            "height": 466
+          }
+        },
+        "fallen": {
+          "file": "units/legionnaire-fallen.png",
+          "sourceBox": {
+            "left": 26,
+            "top": 1182,
+            "width": 489,
+            "height": 241
+          }
+        }
+      }
+    },
+    "aer": {
+      "source": "sources/aer-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/aer-se.png",
+          "sourceBox": {
+            "left": 31,
+            "top": 16,
+            "width": 469,
+            "height": 522
+          }
+        },
+        "sw": {
+          "file": "units/aer-sw.png",
+          "sourceBox": {
+            "left": 543,
+            "top": 14,
+            "width": 450,
+            "height": 524
+          }
+        },
+        "ne": {
+          "file": "units/aer-ne.png",
+          "sourceBox": {
+            "left": 91,
+            "top": 538,
+            "width": 390,
+            "height": 513
+          }
+        },
+        "nw": {
+          "file": "units/aer-nw.png",
+          "sourceBox": {
+            "left": 556,
+            "top": 548,
+            "width": 419,
+            "height": 510
+          }
+        },
+        "fallen": {
+          "file": "units/aer-fallen.png",
+          "sourceBox": {
+            "left": 24,
+            "top": 1159,
+            "width": 545,
+            "height": 292
+          }
+        }
+      }
+    },
+    "bound": {
+      "source": "sources/bound-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/bound-se.png",
+          "sourceBox": {
+            "left": 34,
+            "top": 128,
+            "width": 455,
+            "height": 385
+          }
+        },
+        "sw": {
+          "file": "units/bound-sw.png",
+          "sourceBox": {
+            "left": 512,
+            "top": 128,
+            "width": 486,
+            "height": 407
+          }
+        },
+        "ne": {
+          "file": "units/bound-ne.png",
+          "sourceBox": {
+            "left": 40,
+            "top": 580,
+            "width": 472,
+            "height": 419
+          }
+        },
+        "nw": {
+          "file": "units/bound-nw.png",
+          "sourceBox": {
+            "left": 512,
+            "top": 580,
+            "width": 494,
+            "height": 415
+          }
+        },
+        "fallen": {
+          "file": "units/bound-fallen.png",
+          "sourceBox": {
+            "left": 13,
+            "top": 1114,
+            "width": 541,
+            "height": 280
+          }
+        }
+      }
+    },
+    "murr": {
+      "source": "sources/murr-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/murr-se.png",
+          "sourceBox": {
+            "left": 24,
+            "top": 52,
+            "width": 487,
+            "height": 502
+          }
+        },
+        "sw": {
+          "file": "units/murr-sw.png",
+          "sourceBox": {
+            "left": 526,
+            "top": 81,
+            "width": 482,
+            "height": 473
+          }
+        },
+        "ne": {
+          "file": "units/murr-ne.png",
+          "sourceBox": {
+            "left": 22,
+            "top": 632,
+            "width": 490,
+            "height": 391
+          }
+        },
+        "nw": {
+          "file": "units/murr-nw.png",
+          "sourceBox": {
+            "left": 512,
+            "top": 627,
+            "width": 477,
+            "height": 396
+          }
+        },
+        "fallen": {
+          "file": "units/murr-fallen.png",
+          "sourceBox": {
+            "left": 37,
+            "top": 1145,
+            "width": 505,
+            "height": 329
+          }
+        }
+      }
+    },
+    "krag": {
+      "source": "sources/krag-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/krag-se.png",
+          "sourceBox": {
+            "left": 50,
+            "top": 64,
+            "width": 462,
+            "height": 458
+          }
+        },
+        "sw": {
+          "file": "units/krag-sw.png",
+          "sourceBox": {
+            "left": 512,
+            "top": 64,
+            "width": 464,
+            "height": 460
+          }
+        },
+        "ne": {
+          "file": "units/krag-ne.png",
+          "sourceBox": {
+            "left": 26,
+            "top": 570,
+            "width": 457,
+            "height": 449
+          }
+        },
+        "nw": {
+          "file": "units/krag-nw.png",
+          "sourceBox": {
+            "left": 521,
+            "top": 570,
+            "width": 485,
+            "height": 449
+          }
+        },
+        "fallen": {
+          "file": "units/krag-fallen.png",
+          "sourceBox": {
+            "left": 20,
+            "top": 1148,
+            "width": 521,
+            "height": 338
+          }
+        }
+      }
+    },
+    "spear": {
+      "source": "sources/spear-atlas.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "frames": {
+        "se": {
+          "file": "units/spear-se.png",
+          "sourceBox": {
+            "left": 325,
+            "top": 11,
+            "width": 238,
+            "height": 370
+          }
+        },
+        "sw": {
+          "file": "units/spear-sw.png",
+          "sourceBox": {
+            "left": 977,
+            "top": 4,
+            "width": 237,
+            "height": 377
+          }
+        },
+        "ne": {
+          "file": "units/spear-ne.png",
+          "sourceBox": {
+            "left": 339,
+            "top": 381,
+            "width": 220,
+            "height": 382
+          }
+        },
+        "nw": {
+          "file": "units/spear-nw.png",
+          "sourceBox": {
+            "left": 972,
+            "top": 381,
+            "width": 233,
+            "height": 381
+          }
+        },
+        "fallen": {
+          "file": "units/spear-fallen.png",
+          "sourceBox": {
+            "left": 209,
+            "top": 824,
+            "width": 589,
+            "height": 150
+          }
+        }
+      }
+    },
+    "sling": {
+      "source": "sources/sling-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/sling-se.png",
+          "sourceBox": {
+            "left": 67,
+            "top": 6,
+            "width": 399,
+            "height": 484
+          }
+        },
+        "sw": {
+          "file": "units/sling-sw.png",
+          "sourceBox": {
+            "left": 567,
+            "top": 6,
+            "width": 415,
+            "height": 484
+          }
+        },
+        "ne": {
+          "file": "units/sling-ne.png",
+          "sourceBox": {
+            "left": 52,
+            "top": 530,
+            "width": 431,
+            "height": 467
+          }
+        },
+        "nw": {
+          "file": "units/sling-nw.png",
+          "sourceBox": {
+            "left": 567,
+            "top": 530,
+            "width": 439,
+            "height": 467
+          }
+        },
+        "fallen": {
+          "file": "units/sling-fallen.png",
+          "sourceBox": {
+            "left": 19,
+            "top": 1187,
+            "width": 488,
+            "height": 237
+          }
+        }
+      }
+    },
+    "brute": {
+      "source": "sources/brute-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/brute-se.png",
+          "sourceBox": {
+            "left": 29,
+            "top": 42,
+            "width": 483,
+            "height": 449
+          }
+        },
+        "sw": {
+          "file": "units/brute-sw.png",
+          "sourceBox": {
+            "left": 512,
+            "top": 43,
+            "width": 485,
+            "height": 459
+          }
+        },
+        "ne": {
+          "file": "units/brute-ne.png",
+          "sourceBox": {
+            "left": 59,
+            "top": 545,
+            "width": 452,
+            "height": 451
+          }
+        },
+        "nw": {
+          "file": "units/brute-nw.png",
+          "sourceBox": {
+            "left": 533,
+            "top": 545,
+            "width": 429,
+            "height": 464
+          }
+        },
+        "fallen": {
+          "file": "units/brute-fallen.png",
+          "sourceBox": {
+            "left": 27,
+            "top": 1149,
+            "width": 502,
+            "height": 336
+          }
+        }
+      }
+    },
+    "healer": {
+      "source": "sources/healer-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/healer-se.png",
+          "sourceBox": {
+            "left": 87,
+            "top": 10,
+            "width": 364,
+            "height": 496
+          }
+        },
+        "sw": {
+          "file": "units/healer-sw.png",
+          "sourceBox": {
+            "left": 580,
+            "top": 10,
+            "width": 356,
+            "height": 496
+          }
+        },
+        "ne": {
+          "file": "units/healer-ne.png",
+          "sourceBox": {
+            "left": 88,
+            "top": 533,
+            "width": 360,
+            "height": 459
+          }
+        },
+        "nw": {
+          "file": "units/healer-nw.png",
+          "sourceBox": {
+            "left": 576,
+            "top": 532,
+            "width": 358,
+            "height": 460
+          }
+        },
+        "fallen": {
+          "file": "units/healer-fallen.png",
+          "sourceBox": {
+            "left": 20,
+            "top": 1182,
+            "width": 558,
+            "height": 254
+          }
+        }
+      }
+    },
+    "hexer": {
+      "source": "sources/hexer-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/hexer-se.png",
+          "sourceBox": {
+            "left": 125,
+            "top": 6,
+            "width": 367,
+            "height": 518
+          }
+        },
+        "sw": {
+          "file": "units/hexer-sw.png",
+          "sourceBox": {
+            "left": 559,
+            "top": 15,
+            "width": 341,
+            "height": 511
+          }
+        },
+        "ne": {
+          "file": "units/hexer-ne.png",
+          "sourceBox": {
+            "left": 135,
+            "top": 544,
+            "width": 344,
+            "height": 487
+          }
+        },
+        "nw": {
+          "file": "units/hexer-nw.png",
+          "sourceBox": {
+            "left": 549,
+            "top": 542,
+            "width": 336,
+            "height": 489
+          }
+        },
+        "fallen": {
+          "file": "units/hexer-fallen.png",
+          "sourceBox": {
+            "left": 15,
+            "top": 1144,
+            "width": 557,
+            "height": 325
+          }
+        }
+      }
+    },
+    "commander": {
+      "source": "sources/commander-atlas.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "frames": {
+        "se": {
+          "file": "units/commander-se.png",
+          "sourceBox": {
+            "left": 98,
+            "top": 3,
+            "width": 359,
+            "height": 485
+          }
+        },
+        "sw": {
+          "file": "units/commander-sw.png",
+          "sourceBox": {
+            "left": 569,
+            "top": 3,
+            "width": 366,
+            "height": 485
+          }
+        },
+        "ne": {
+          "file": "units/commander-ne.png",
+          "sourceBox": {
+            "left": 107,
+            "top": 521,
+            "width": 348,
+            "height": 472
+          }
+        },
+        "nw": {
+          "file": "units/commander-nw.png",
+          "sourceBox": {
+            "left": 568,
+            "top": 523,
+            "width": 378,
+            "height": 475
+          }
+        },
+        "fallen": {
+          "file": "units/commander-fallen.png",
+          "sourceBox": {
+            "left": 25,
+            "top": 1166,
+            "width": 506,
+            "height": 299
+          }
+        }
+      }
+    }
+  },
+  "props": {
+    "tree": {
+      "source": "sources/tree-prop.png",
+      "file": "props/tree.png",
+      "sourceBox": {
+        "left": 52,
+        "top": 51,
+        "width": 928,
+        "height": 1377
+      }
+    },
+    "rubble": {
+      "source": "sources/rubble-prop.png",
+      "file": "props/rubble.png",
+      "sourceBox": {
+        "left": 180,
+        "top": 65,
+        "width": 1141,
+        "height": 949
+      }
+    },
+    "wagon": {
+      "source": "sources/wagon-prop.png",
+      "file": "props/wagon.png",
+      "sourceBox": {
+        "left": 40,
+        "top": 197,
+        "width": 1196,
+        "height": 907
+      }
+    },
+    "casualty": {
+      "source": "sources/casualty-prop.png",
+      "file": "props/casualty.png",
+      "sourceBox": {
+        "left": 35,
+        "top": 117,
+        "width": 1184,
+        "height": 1043
+      }
+    },
+    "extraction": {
+      "source": "sources/extraction-prop.png",
+      "file": "props/extraction.png",
+      "sourceBox": {
+        "left": 442,
+        "top": 18,
+        "width": 375,
+        "height": 1206
+      }
+    },
+    "relay": {
+      "source": "sources/relay-prop.png",
+      "file": "props/relay.png",
+      "sourceBox": {
+        "left": 312,
+        "top": 56,
+        "width": 721,
+        "height": 1142
+      }
+    },
+    "salvage": {
+      "source": "sources/salvage-prop.png",
+      "file": "props/salvage.png",
+      "sourceBox": {
+        "left": 230,
+        "top": 86,
+        "width": 916,
+        "height": 990
+      }
+    },
+    "captive": {
+      "source": "sources/captive-prop.png",
+      "file": "props/captive.png",
+      "sourceBox": {
+        "left": 324,
+        "top": 38,
+        "width": 920,
+        "height": 930
+      }
+    },
+    "enforcer": {
+      "source": "sources/enforcer-prop.png",
+      "file": "enforcer.png",
+      "sourceBox": {
+        "left": 34,
+        "top": 61,
+        "width": 1083,
+        "height": 1202
+      }
+    },
+    "control-spire": {
+      "source": "sources/control-spire-prop.png",
+      "file": "props/control-spire.png",
+      "sourceBox": {
+        "left": 231,
+        "top": 90,
+        "width": 855,
+        "height": 990
+      }
+    },
+    "ferry-beacon": {
+      "source": "sources/ferry-beacon-prop.png",
+      "file": "props/ferry-beacon.png",
+      "sourceBox": {
+        "left": 189,
+        "top": 22,
+        "width": 977,
+        "height": 1147
+      }
+    },
+    "generator": {
+      "source": "sources/generator-prop.png",
+      "file": "props/generator.png",
+      "sourceBox": {
+        "left": 41,
+        "top": 25,
+        "width": 1184,
+        "height": 1175
+      }
+    },
+    "escort-cart": {
+      "source": "sources/escort-cart-prop.png",
+      "file": "props/escort-cart.png",
+      "sourceBox": {
+        "left": 61,
+        "top": 87,
+        "width": 1192,
+        "height": 1041
+      }
+    },
+    "archive": {
+      "source": "sources/archive-prop.png",
+      "file": "props/archive.png",
+      "sourceBox": {
+        "left": 135,
+        "top": 61,
+        "width": 1065,
+        "height": 1104
+      }
+    },
+    "sluice": {
+      "source": "sources/sluice-prop.png",
+      "file": "props/sluice.png",
+      "sourceBox": {
+        "left": 331,
+        "top": 49,
+        "width": 889,
+        "height": 949
+      }
+    },
+    "barricade": {
+      "source": "sources/barricade-prop.png",
+      "file": "props/barricade.png",
+      "sourceBox": {
+        "left": 388,
+        "top": 69,
+        "width": 976,
+        "height": 895
+      }
+    },
+    "barricade-broken": {
+      "source": "sources/barricade-broken-prop.png",
+      "file": "props/barricade-broken.png",
+      "sourceBox": {
+        "left": 87,
+        "top": 283,
+        "width": 1360,
+        "height": 560
+      }
+    }
+  },
+  "textures": {
+    "reedwater-ground": {
+      "source": "sources/reedwater-ground-texture.png",
+      "file": "terrain/reedwater-ground.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "basalt-ground": {
+      "source": "sources/basalt-ground-texture.png",
+      "file": "terrain/basalt-ground.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "spores-ground": {
+      "source": "sources/spores-ground-texture.png",
+      "file": "terrain/spores-ground.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "water": {
+      "source": "sources/water-texture.png",
+      "file": "terrain/water.png",
+      "size": [
+        256,
+        256
+      ]
+    }
+  },
+  "unitCanvas": {
+    "width": 128,
+    "height": 160,
+    "foot": [
+      64,
+      144
+    ]
+  },
+  "propCanvas": {
+    "width": 256,
+    "height": 256,
+    "base": [
+      128,
+      224
+    ]
+  },
+  "processing": "High-alpha bounds locate frames; source alpha is retained. Nearest-neighbor resize and palette PNG packing. Original atlases retained."
+}

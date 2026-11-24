@@ -1,0 +1,32 @@
+{
+  "tool": "Built-in image generation",
+  "date": "2026-10-22",
+  "transparentBackground": true,
+  "assets": {
+    "centurion": {
+      "file": "centurion.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game character sprite for a small top-down tactics grid. One single full-body Roman centurion miniature, elevated three-quarter view from the front, facing lower-right, feet visible, entire figure centered and occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outline, simplified broad color shapes legible at 56 pixels tall. Silver mail armor over burgundy tunic, bronze helmet with distinct transverse red crest, red cloak, curved rectangular red shield and short sword. Restrained historically inspired early Imperial Roman equipment; no fantasy spikes, no modern gear. Neutral daylight upper-left. Transparent background, no ground, no base, no text, no border, no other figures, no watermark. This is a sprite asset, not a portrait or scene.",
+      "generatedFile": "exec-fd5aeb2a-5e68-4e84-8d96-e72ad4096a40.png"
+    },
+    "shield": {
+      "file": "shield.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game character sprite for a small top-down tactics grid. ONE single full-body miniature, elevated three-quarter view from front, facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outline, simplified broad color shapes legible at 56 pixels tall, silver mail and bronze metal, muted earth palette. Neutral daylight upper-left. Transparent background, NO ground, base, text, border, other figures, or watermark. Sprite asset, not portrait or scene. Roman legionnaire, young adult, bronze helmet WITHOUT crest, mail armor over muted ivory tunic. Large curved rectangular shield with distinctive BLUE painted face and pale simple geometric emblem, holding two long javelins upright. Defensive stance. Historically inspired early Imperial kit, no fantasy ornament or modern equipment.",
+      "generatedFile": "exec-8fdc33f9-6f3c-4f18-ba91-80807ae2a535.png"
+    },
+    "sword": {
+      "file": "sword.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game character sprite for a small top-down tactics grid. ONE single full-body miniature, elevated three-quarter view from front, facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outline, simplified broad color shapes legible at 56 pixels tall, silver mail and bronze metal, muted earth palette. Neutral daylight upper-left. Transparent background, NO ground, base, text, border, other figures, or watermark. Sprite asset, not portrait or scene. Roman legionnaire, young adult, bronze helmet WITHOUT crest, mail armor over muted ivory tunic. Curved rectangular shield with distinctive GOLD OCHRE painted face and simple dark stripe. Short sword held forward, active ready stance. Historically inspired early Imperial kit, no fantasy ornament or modern equipment.",
+      "generatedFile": "exec-64869fea-94c3-45d6-aab8-cae01469b5ec.png"
+    },
+    "legionnaire": {
+      "file": "legionnaire.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game character sprite for a small top-down tactics grid. ONE single full-body miniature, elevated three-quarter view from front, facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outline, simplified broad color shapes legible at 56 pixels tall, silver mail and bronze metal, muted earth palette. Neutral daylight upper-left. Transparent background, NO ground, base, text, border, other figures, or watermark. Sprite asset, not portrait or scene. Roman supporting legionnaire, bronze helmet WITHOUT crest, mail armor over muted ivory tunic. Curved rectangular shield with muted RED painted face, simple pale stripe. Short sword at side and javelin upright. Neutral ready stance, no cloak. Historically inspired early Imperial kit, no fantasy ornament or modern equipment.",
+      "generatedFile": "exec-1d773f03-2814-4d88-aed6-d17482297349.png"
+    },
+    "enemy": {
+      "file": "enemy.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game character sprite for a small top-down tactics grid. ONE single full-body miniature, elevated three-quarter view from front, facing lower-right, feet visible, entire figure centered occupying 88% of square canvas. Hand-painted strategy game sprite, chunky readable proportions, strong dark outline, simplified broad color shapes legible at 56 pixels tall, silver mail and bronze metal, muted earth palette. Neutral daylight upper-left. Transparent background, NO ground, base, text, border, other figures, or watermark. Sprite asset, not portrait or scene. Germanic woodland warrior for a battle in Germania, 9 CE. Brown wool tunic, dark forest green cloak, simple trousers, brown leather belt and boots, bare head with shoulder-length sandy hair. Round wooden shield with central iron boss, long spear. No Roman helmet, no metal body armor, no horns, no fantasy spikes, no modern equipment. Visually distinct rugged silhouette, muted orange-brown shield. Non-caricatured human enemy soldier.",
+      "generatedFile": "exec-09c6f2e4-3423-4744-86e4-43fdcc494f23.png"
+    }
+  }
+}

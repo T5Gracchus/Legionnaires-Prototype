@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen.imagegen",
+  "build": "0.9.0",
+  "assets": [
+    {
+      "id": "control-spire",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. A native alien hilltop control spire built of stacked amber stone, bronze rings and one glowing teal crystal, low circular base, readable short squat silhouette.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-6604bc75-51db-4485-bb7a-0e26fefe7780.png"
+    },
+    {
+      "id": "ferry-beacon",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. A primitive alien extraction ferry beacon: sturdy carved wooden tripod with turquoise sail cloth and luminous white-blue lantern hanging inside, small coiled rope around feet, compact silhouette.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-d72fc30a-afaa-4216-a0e5-bc2ca8d48ebc.png"
+    },
+    {
+      "id": "generator",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. An alien slave-camp power generator: squat copper cage cradling a luminous violet crystal with thick stone feet and ceramic insulators, orange warning accents, primitive alien workshop architecture.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-eb05fa68-c056-4b4c-b5bd-d983df570731.png"
+    },
+    {
+      "id": "escort-cart",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. A primitive alien pack cart: small two-wheeled timber cart with a friendly tiny blue shelled alien seated upright under a cream canopy, supply bundles, front facing lower left; no weapons.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-52a5262e-064d-469b-99bf-c06731983922.png"
+    },
+    {
+      "id": "archive",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. An alien archive shrine: stepped dark green carved stone plinth with a fan of luminous golden thin tablets and a small red sealing cord, compact ornate but readable.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-7153f01e-c9e3-4d6f-a735-4268984dc267.png"
+    },
+    {
+      "id": "sluice",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. A native alien waterworks control: squat pair of carved turquoise stone pillars supporting a wooden red wheel and small brass lock gate mechanism, river civilization aesthetic.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-8d3571aa-e3b4-423e-87a3-cd9eeaa01f2a.png"
+    },
+    {
+      "id": "barricade-broken",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. A destroyed low pile of reddish wooden splinters and two bent bronze shell plates, remains of a broken waist-high barricade. Very low flat silhouette, no tall intact stakes; clearly walkable debris.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-de61f1ea-5edc-491d-bf8a-bf8cd3f63f45.png"
+    },
+    {
+      "id": "barricade",
+      "prompt": "Original small isometric tactical RPG battlefield prop, hand-painted pixel-art inspired crisp clusters and strong readable silhouette, 3/4 elevated camera at 30 degrees, light from upper left. Single isolated object centered on transparent background, no floor tile, no UI, no lettering, no watermark, no cast shadow outside object. Object must fit entirely with generous transparent margin; grounded base bottom center. Palette muted earthy fantasy with a little alien bioluminescence. Game-ready decorative sprite, not a scene. A destructible barricade made of three thick reddish timber stakes lashed together with pale rope and broad bronze shell plates, angled waist-high defensive barrier, sturdy intact version.",
+      "source": "C:\\Users\\TSGra\\.codex\\generated_images\\01a0c6bd-0fe7-79d2-835e-cf6ab8f6eccf\\exec-ff3c9cd4-eddd-43a2-b1b9-ff9c7abb17b3.png"
+    }
+  ]
+}

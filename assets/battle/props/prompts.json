@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "assets": [
+    {
+      "name": "water",
+      "file": "../terrain/water.png",
+      "transparent": false,
+      "source": "C:/Users/TSGra/.codex/generated_images/01a17b5a-fa4b-79f3-84b4-b1e89f5a0875/exec-6a7147a1-402c-48e6-8937-3691685a1b97.png",
+      "prompt": "Use case: stylized-concept. Asset type: original repeatable top-down water material for the ground plane of an isometric tactics game. One square swatch of calm shallow river water, muted teal and blue-green, very sparse narrow pale ripple marks, crisp deliberate pixel clusters, broad calm shapes. Perfectly overhead orthographic, fill square edge to edge, even lighting, no shore, no border, no ground, no rocks, no animals, no characters, no perspective or 3D block, no text. Subdued contrast, not photorealistic; small sprites and tactical overlays must remain dominant. Seamless repeatable material, not an illustrated scene."
+    },
+    {
+      "name": "tree",
+      "file": "tree.png",
+      "transparent": true,
+      "source": "C:/Users/TSGra/.codex/generated_images/01a17b5a-fa4b-79f3-84b4-b1e89f5a0875/exec-896c7015-54ea-4be5-9aa4-a7baf8c14225.png",
+      "prompt": "Use case: stylized-concept. Asset type: one original transparent battle-map tree sprite for a tactical RPG. A single compact dark green conifer, strong readable layered silhouette, solid cedar-brown trunk visible at its foot, crisp deliberate pixel clusters with a restrained moss/olive palette. Three-quarter view from above at about 30 degrees, light from upper left, matching a miniature isometric battlefield. Entire tree visible centered with ample transparent margin. Tree only, no ground patch, no tile, no environment, no stand, no text, no border, no large shadow beyond the base. Strong broad masses rather than noisy microdetail, readable when reduced to 60 pixels tall. Genuinely transparent background, no checkerboard."
+    },
+    {
+      "name": "rubble",
+      "file": "rubble.png",
+      "transparent": true,
+      "source": "C:/Users/TSGra/.codex/generated_images/01a17b5a-fa4b-79f3-84b4-b1e89f5a0875/exec-3a85033f-123f-4cc9-9c5d-99741ad392f0.png",
+      "prompt": "Use case: stylized-concept. Asset type: one original transparent battle-map rubble sprite for a tactical RPG. A single compact cluster of three large broken basalt/slate boulders with a few stone chips forming one impassable rocky obstruction. Strong angular silhouette, crisp deliberate pixel clusters, cool slate gray stone with a few muted amber mineral edges. Three-quarter view from above at about 30 degrees, light from upper left, matching a miniature isometric battlefield. Entire rock cluster centered with ample transparent margin. Rocks only, no ground patch, no tile, no environment, no stand, no plants, no text, no border, no large shadow beyond the base. Broad faces and readable facets rather than noisy microdetail, readable when reduced to 50 pixels tall. Genuinely transparent background, no checkerboard."
+    }
+  ]
+}
